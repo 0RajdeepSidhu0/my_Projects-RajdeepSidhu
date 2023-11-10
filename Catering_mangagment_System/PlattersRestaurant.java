@@ -1,5 +1,7 @@
 package SEM3.assignment1;
 import java.util.Scanner;
+//Author: Rajdeep Singh Sidhu
+//Date: 10-10-2023
 public class PlattersRestaurant implements Structure{
     // A static block that runs when the class is loaded to display a welcome message.
     static {

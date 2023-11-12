@@ -1,4 +1,4 @@
-
+package SEM3.assignment1;
 import java.util.*;
 
 public class McDonald implements Structure{

@@ -4,7 +4,8 @@ import java.util.*;
 /*
 This is a to do list 
  */
-
+//Author: Rajdeep Singh Sidhu
+//Date: 14-10-2023
 public class ToDoApp {
     private ArrayList<String> todo = new ArrayList<>();
     //private String[] state;

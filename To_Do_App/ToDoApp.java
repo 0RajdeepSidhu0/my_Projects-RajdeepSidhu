@@ -2,7 +2,7 @@ package Practice.projects;
 import java.util.*;
 
 /*
-This is a to do list 
+Disclamer: This is a to do list program that helps you to keep the track of the day's tasks
  */
 //Author: Rajdeep Singh Sidhu
 //Date: 14-10-2023
@@ -115,4 +115,6 @@ class Control_ToDoApp{
             }
         }
     }
+    //Author: Rajdeep Singh Sidhu
+    //Date: 14-10-2023
 }

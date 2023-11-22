@@ -9,23 +9,27 @@ Disclamer: This is a to do list program that helps you to keep the track of the 
 //Date: 14-10-2023
 public class ToDoApp {
     private ArrayList<String> todo = new ArrayList<>();
-    //private String[] state;
-   private ArrayList<String> state = new ArrayList<>();
+    private ArrayList<String> state = new ArrayList<>();
     private int itration =0;
+    
     boolean check(){
         return itration <= 0;
     }
+    
     boolean bound(int x){return x>itration || x<0;}
+    
     void addTask(String str){
         System.out.println("-------------------------------------------");
         todo.add(str);
         state.add("Not Done"); itration+=1;
         System.out.println("\nTask has been Successfully add to the list");
     }
+    
     void mark(int change){
         state.set(change,"Done");
         System.out.println("The Task "+todo.get(change)+" has been marked done");
     }
+    
     void delete(int del){
         System.out.println("The Task "+todo.get(del)+" has been removed");
         todo.remove(del);
@@ -46,6 +50,7 @@ public class ToDoApp {
 
 
 }
+
 class Control_ToDoApp{
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {

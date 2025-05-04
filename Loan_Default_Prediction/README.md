@@ -3,7 +3,9 @@ I created a website around a machine learning model that I trained to accomplish
 The project consists of two primary components: a frontend using React (with Vite) and a backend using Flask. 
 To make the form appear tidy, I used Bootstrap.
 
+Eg. 
 ![image](https://github.com/user-attachments/assets/a33d1ad9-a6aa-4e35-955e-dfc53276921c)
+![image](https://github.com/user-attachments/assets/4fe7291b-720c-478b-9d9f-da05ec57c06c)
 
 In the backend, I used Python with Flask to create an API that takes in some user data (like age, income, credit history, etc.) 
 and then returns the probability of defaulting on a loan. 
